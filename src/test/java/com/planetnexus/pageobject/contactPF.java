@@ -8,10 +8,10 @@ import org.openqa.selenium.support.PageFactory;
 public class contactPF {
 
 	
-	WebDriver driver;
-	 public contactPF (WebDriver driver) {
+	WebDriver driver;//declare driver (variable)
+	 public contactPF (WebDriver driver) { //it is not void ,static
 		 this.driver=driver;
-		 PageFactory.initElements(driver, this);
+		 PageFactory.initElements(driver, this);//connect page factory use .initelement
 		 
 	 }
 	 
